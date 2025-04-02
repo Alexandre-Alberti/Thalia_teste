@@ -19,9 +19,9 @@ st.title("Thalia - Otimização de Função Quadrática")
 
 st.write("Informe os coeficientes da função f(x) = ax² + bx + c:")
 
-a = st.number_input("Coeficiente a", format="%.4f")
-b = st.number_input("Coeficiente b", format="%.4f")
-c = st.number_input("Coeficiente c", format="%.4f")
+a = st.number_input("Coeficiente AA", format="%.4f")
+b = st.number_input("Coeficiente BB", format="%.4f")
+c = st.number_input("Coeficiente CC", format="%.4f")
 
 if st.button("Otimizar"):
     resultado = calcular_otimo(a, b, c)
